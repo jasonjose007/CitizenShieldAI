@@ -1,0 +1,33 @@
+{
+  "name": "CitizenShield AI - Legal Rights Assistant",
+  "short_name": "CitizenShield AI",
+  "description": "AI-powered legal information assistant for Indian citizens. Know your rights, analyze conversations, generate documents.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1d4ed8",
+  "orientation": "portrait-primary",
+  "categories": ["education", "utilities"],
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "share_target": {
+    "action": "/analyze",
+    "method": "GET",
+    "params": {
+      "text": "text"
+    }
+  }
+}
